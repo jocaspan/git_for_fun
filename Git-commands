@@ -1,0 +1,22 @@
+
+STEPS to work on file locally:
+
+1. CLONE
+git clone --branch BatTm  https://github.com/jocaspan/graphviz.git
+git clone --branch CMM_SG03  https://github.com/jocaspan/graphviz.git
+
+2. ADD FILE TO THE REPOSITORY
+git add .
+
+3. COMMIT THE TEXT TO THE REPOSITORY
+git commit -m "any text"
+
+4. PUSH TO THE REMOTE REPOSITORY, TARGETTING THE BRANCH (eg. BatTm)
+git push origin HEAD:BatTm
+git push origin HEAD:Abc
+
+Others:
+
+git branch -a
+git checkout remotes/origin/BatTm
+git add .
